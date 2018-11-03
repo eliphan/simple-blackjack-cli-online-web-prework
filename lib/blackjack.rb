@@ -48,7 +48,7 @@ def hit?
  while input != 'h' && input != 's'
  invalid_command
  prompt_user
- 
+ input = get_user_input
  end
  
  if input == 'h'
