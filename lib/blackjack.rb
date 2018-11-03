@@ -72,5 +72,6 @@ def runner
   prompt_user
   hit?
   if card_total > 21
+  end_game
 end
     
