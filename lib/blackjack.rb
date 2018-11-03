@@ -52,8 +52,8 @@ end
  invalid_command
  prompt_user
  if input == h
-   deal_card
    card_total += deal_card
+   
    
 end
 
