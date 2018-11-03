@@ -45,13 +45,11 @@ def hit?
   # code hit? here
   prompt_user
   input = get_user_input
-end
-
- input = get_user_input
  while input != h && input != s
  invalid_command
  prompt_user
- 
+ end
+ input = get_user_input
  if input == h
    card_total += deal_card
    elsif input == s
