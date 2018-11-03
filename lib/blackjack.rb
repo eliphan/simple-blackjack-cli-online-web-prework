@@ -43,11 +43,22 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  get_user_input
+end
+ input = get_user_input
+ while input != h && input != s
+ invalid_command
+ prompt_user
+ if input == h
+   deal_card
+   card_total += 
+   
 end
 
 def invalid_command
   # code invalid_command here
-  
+  "Please enter a valid command"
 end
 
 #####################################################
