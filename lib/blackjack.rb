@@ -45,6 +45,7 @@ def hit?
   # code hit? here
   prompt_user
   get_user_input
+  input = get_user_input
 end
  input = get_user_input
  while input != h && input != s
