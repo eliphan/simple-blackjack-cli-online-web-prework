@@ -24,7 +24,7 @@ end
 
   # code #get_user_input here
   def get_user_input
-    gets.chomp
+    gets.strip
 end
 
 
