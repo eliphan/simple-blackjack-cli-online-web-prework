@@ -50,12 +50,13 @@ def hit?
  prompt_user
  end
  input = get_user_input
- if input == h
+ if input == "h"
    card_total += deal_card
-   elsif input == s
+   elsif input == "s"
    deal_card
  end
 end
+
 
 def invalid_command
   # code invalid_command here
