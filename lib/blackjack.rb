@@ -53,7 +53,7 @@ end
  prompt_user
  if input == h
    deal_card
-   card_total += 
+   card_total += deal_card
    
 end
 
