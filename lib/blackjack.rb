@@ -53,8 +53,9 @@ end
  prompt_user
  if input == h
    card_total += deal_card
-   
-   
+   elsif input == s
+   deal_card
+ end
 end
 
 def invalid_command
